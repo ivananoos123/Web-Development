@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:fragment="head-tag">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PAGE THREE</title>
+
+    <link rel = "stylesheet" type = "text/css" href = "myjsstyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"/>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css"/>
+
+    <script src="myjs.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js></script>
+
+</head>
+
+<body>
+    <div  class="ui segment app">
+    <div id="header-menu" class="ui secondary  menu">
+        <h1 class="item">
+            <strong>WEB DEVELOPMENT PROJECT WITH JAVASCRIPT </strong>
+        </h1>
+        <a id="pageOne"class="item" href="page1.html"> GREETINGS</a> 
+
+        <a id="pageTwo" class="item" href="page2.html"> WILLIAM SHAKESPEARE</a> 
+            
+        <a id="pageThree"class="item" href="page3.html"> CALCULATE AGE</a> 
+        
+        <a id="pageFour"class="item" href="page4.html"> LOREM IPSUM</a> 
+
+        <a id="pageFive"class="item" href="page5.html"> PSYCHOANALYSIS PROGRAM</a> 
+    </div>
+</div>
+
+<p class="demo"> AGE PROGRAM</p>
+<div class="userInput"> 
+<form>
+    First Name : <input type="text" class="name" id="firstName" ><br>
+    Year of Birth: <input type="text" class="name" id="yearOfBirth" ><br>
+    <input type="button" class="calculate" onClick="myPageThreeFunction()" Value="Calculate Age" />
+    </form>
+        <p>The Result is :
+            <span id = "result" ></span>
+        </p>
+</div>
+</body>
+</html>

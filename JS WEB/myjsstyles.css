@@ -1,0 +1,143 @@
+.ui.segment.app{
+    margin-bottom: -16px;
+}
+h1.item{
+    color: #1d8ab3 !important; 
+    padding-right: 50px !important;
+}
+
+.userInput{
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 0%;
+}
+
+.text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: -2rem 8rem 0 8rem;
+    height: 90vh;
+    padding: 0 10rem;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name{
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.calculate{
+    margin-top: 0%;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.demo{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 0px;
+    color: #1d8ab3 !important; 
+    padding-right: 50px !important;
+    margin-left: 7%;
+}
+
+#Greet{
+    margin-top: 5%;
+}
+.button{
+    margin-top: 3%;
+    margin-left: 45%;
+    position: relative;
+    bottom: auto;
+}
+
+#Greetings{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 8%;
+    color: #1d8ab3 !important; 
+    padding-right: 50px !important;
+}
+
+
+
+#Ivan{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 8%;
+    color: #1d8ab3 !important; 
+    padding-right: 50px !important;
+}
+
+div#header-menu {
+    padding: 5px;
+}
+
+#myImg{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.ui.stackable.padded.grid {
+    padding: 10%; 
+}
+
+p.quote {
+    color: #408ab3;
+    margin-top: 18%;
+}
+
+h4.first {
+    margin: 2px 0 0 0;
+    font-weight: bold;
+}
+h4.second{
+    margin: 5px 0 0 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+p.background1 {
+    background-color: #b0cfe6;
+    font-size: medium;
+    font-style: italic;
+}
+
+.ui.header.educ {
+    padding: 1% 4%;
+    font-size: 32px;
+    background: #1d8ab3;
+    color: white;
+}
+.ui.header.elem{
+    color: #408ab3;
+}
+.ui.header.jhs{
+    color: #408ab3;
+}
+.ui.header.shs{
+    color: #408ab3;
+}
+
+.ui.segment.contact{
+    background-image: url(bgrnd.jpg);
+    height: 100%;
+    margin-top: 0px;
+}
+.ui.segment.blue {
+    padding-bottom: 8%; 
+    margin-top: 10%;
+}
+.ui.header.aligned.center1{
+    font-size: 32px; 
+    color: #187295;
+    text-align: center;
+}
+.ui.header.aligned.center2{
+    text-align: center;
+    font-size: 14px; 
+    margin: 0 0 6%;
+}
