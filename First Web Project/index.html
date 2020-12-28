@@ -1,0 +1,101 @@
+<html>
+<head th:fragment="head-tag">
+    
+    <title>Web Dev First Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css"/>
+
+
+<body>
+    <div  class="ui segment app">
+		<div id="header-menu" class="ui secondary  menu">
+			<h3 class="item">
+				<b>WEB DEVELOPMENT PROJECT </b>
+			</h3>
+
+			<a id="personal-information"
+				class="item" href="index.html"> Personal Information</a> 
+            <a
+				id="educational-background"
+                class="item" href="Educational Background.html"> Educational Background </a> 
+                
+            <a 
+                id="contact-me"
+                class="item" href="Contact Me.html">Contact Me</a>
+				
+		</div>
+    </div>
+<div class="ui stackable padded grid">
+            <div class="six wide column" id="hero-page">
+                <div class="images"><img src="kimoy.jpg" alt="ivan anoos" width="400" style=" margin-left: 17%;"></div>
+                <div class="images"><img src="shs.jpg" alt="ivan anoos" width="400" style=" margin-left: 17%;"></div>
+                <div class="images"><img src="jhs grad.jpg" alt="ivan anoos" width="400" style=" margin-left: 17%;"></div>
+                
+            </div>
+          <div class="eight wide column">
+            <h1 class="ui header">
+                <p class="quote"><strong><i class="quote left large icon"></i>
+                    Let us not give up on life until we die. <i class="quote right large icon"></i></strong></p>
+            </h1>
+                
+                <h4 class="first">   Ivan Kim E. Anoos | &nbsp; 20 &nbsp; | &nbsp; 11 Jun 2000 &nbsp; | &nbsp; Male </h4>
+                <h4 class="second">  Ubos Pundok, Basak Pardo, Cebu City</h4>
+                <br><br>
+                <p class="background1">
+                    Good day!! to anyone who's reading this. I'm Ivan Kim E. Anoos, as I stated above. I'm currently a 2nd year college student enrolled as Bachelor of Science
+                    in Information Technology in Cebu Institute of Technology - University. There are many things that I like in life. For instance, I like playing video games, 
+                    good foods, good friends, good internet, reading manga/manhwas/webtoon, watching anime & movies, and many others. I'm just a simple human being. I live in an 
+                    ordinary life and enjoy simple things that makes me happy.
+                </p>
+          </div>
+       
+        </div>
+    </div>
+    <br><br><hr>
+    <div class="ui vertical footer segment" >
+        <div class="ui grid copyright-footer">
+            <div class="ui ten wide column">
+                <div class="ui center aligned container">
+                    <p class="copyright">
+                        <i class="small copyright outline icon"></i> 2020  All rights reserved. &nbsp;| &nbsp; Made by: <b>Ivan Kim E. Anoos </b>
+                    </p>
+                    
+                </div>
+                
+            </div>
+            <div class="ui six wide column">
+            	<div class="ui center aligned container">
+                     &nbsp;| &nbsp; <a href ="https://www.facebook.com/aike.anoos/" target="_blank"> <i class="facebook blue icon"></i></a>
+                     &nbsp;| &nbsp; <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="google red icon"></i></a>
+                     &nbsp;| &nbsp; <a href="https://www.instagram.com/kapoynimo/" target="_blank"><i class="instagram pink icon"></i></a>
+                     &nbsp;| &nbsp; <a href="https://twitter.com/ayybbaannnn" target="_blank"><i class="twitter blue icon"></i></a>
+                      <!-- <a href="#root">Back to top</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#hero-page').slick({
+            infinite: true,
+            autoplay: true,
+            dots: true,
+            arrows: true,
+           autoplaySpeed: 4000
+        });
+});
+  </script>
+
+</html> 

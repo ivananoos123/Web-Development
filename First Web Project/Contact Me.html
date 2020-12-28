@@ -1,0 +1,113 @@
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head th:fragment="head-tag">
+    
+    <title>Web Dev First Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+</head>
+<body>
+    <div  class="ui segment app" >
+		<div id="header-menu" class="ui secondary  menu" style="padding: 5px;">
+			<h3 class="item">
+                <b>WEB DEVELOPMENT PROJECT </b>
+			</h3>
+
+			<a id="personal-information"
+				class="item" href="index.html"> Personal Information</a> 
+            <a
+				id="educational-background"
+                class="item" href="Educational Background.html"> Educational Background </a> 
+                
+            <a 
+                id="contact-me"
+                class="item" href="Contact Me.html">Contact Me</a>
+				
+		</div>
+    </div>
+
+<div class="ui segment contact">
+    <div class="ui stackable padded grid">
+        <div class="five wide column"></div>
+            <div class="six wide column">
+                <div class="ui form">
+                    <div class="ui segment blue">
+                        <div class="ui header aligned center1">Contact Me</div>
+                             <div class="ui header aligned center2">
+                                 I would like to hear from you. Please drop us a line if you have any query.</div>
+                                <form action method ="POST" autocomplete="on" target="_blank">
+                                    <div class="ui two fields">
+                                        <div class="required field">
+                                            <label>First name</label>
+                                             <input name="first-name" type="text" placeholder="First Name">
+                                        </div>
+                                            <div class="required field">
+                                                <label>Last name</label>
+                                                <input name="last-name" type="text" placeholder="Last Name">
+                                            </div>
+                                    </div>
+                                         <div class="required field">
+                                            <label>Email Address</label>
+                                            <input name="email-add" type="text" placeholder="Email Address">
+                                         </div>
+                                            <div class="field">
+                                            <label>Message</label>
+                                            <textarea id= "message" rows="10" placeholder="Describe briefly your query..."></textarea>
+                                            </div>
+                                                <div class="action">
+                                            <button id="submit-btn" class="ui grey right floated button" type="submit">Submit</button>
+                                                </div>
+                                </form>
+                    </div>
+                 </div>
+            </div>
+<div class="five wide column"></div>
+
+    </div>
+</div>
+    <!-- <form action method="POST" autocomplete="on" target="_blank">
+        <label for="first_name">First Name: </label>
+        <input type="text" name="first_name" id="first_name">
+        <label for="last_name">Last Name: </label>
+        <input type="text" name="last_name" id="last_name"><br><br>
+        <label for="email_adress"> Email Adress: </label>
+        <input type="email" name="email_address" id="email_address"> <br> <br>
+        <label for="contact_number">Contact Number: </label>
+        <input type="text" name="contact_number" id="contact_number"><br><br>
+        <label for="msg_me">Message: </label>
+        <input type="text" name="msg_me" id="msg_me"><br><br>
+        <input type="submit">
+    </form> -->
+    <div class="ui vertical footer segment" >
+        <div class="ui grid copyright-footer">
+            <div class="ui ten wide column">
+                <div class="ui center aligned container">
+                    <p class="copyright">
+                        <i class="small copyright outline icon"></i> 2020  All rights reserved. &nbsp;| &nbsp; Made by: <b>Ivan Kim E. Anoos </b>
+                    </p>
+                    
+                </div>
+                
+            </div>
+            <div class="ui six wide column">
+            	<div class="ui center aligned container">
+                     &nbsp;| &nbsp; <a href ="https://www.facebook.com/aike.anoos/" target="_blank"> <i class="facebook blue icon"></i></a>
+                     &nbsp;| &nbsp; <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="google red icon"></i></a>
+                     &nbsp;| &nbsp; <a href="https://www.instagram.com/kapoynimo/" target="_blank"><i class="instagram pink icon"></i></a>
+                     &nbsp;| &nbsp; <a href="https://twitter.com/ayybbaannnn" target="_blank"><i class="twitter blue icon"></i></a>|
+                      <!-- <a href="#root">Back to top</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</html>
